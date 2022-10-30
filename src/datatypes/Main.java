@@ -9,7 +9,7 @@ public class Main {
 		//long-integer 8 bytes
 		//boolean-True&false 1byte
 		//char tek tırnak içinde tek karakter
-
+		
 	}
 
 }
