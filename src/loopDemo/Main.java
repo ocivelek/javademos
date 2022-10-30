@@ -21,6 +21,24 @@ public class Main {
 			i++;
 		}
 		System.out.println("While Döngüsü bitti");
+		
+		
+		//Do-While
+		int l=1;
+		do {
+			System.out.println(l);
+			l++;
+		}while(l<10);
+		System.out.println("Do-While Dögüsü Bitti");
+		
+		
+		/*int j=100;
+		do {
+			System.out.println(j);
+			j++;
+		}while(j<10);
+		System.out.println("Do-While Dögüsü Bitti");*/
+		
 	}
 
 }
