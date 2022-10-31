@@ -25,6 +25,21 @@ public class Main {
 												// başlar.
 		System.out.println(mesaj.lastIndexOf('a'));// metni sondan okumaya başlar.içinde a geçen yerin baştan numarasını
 													// verir.
+
+		String yeniMesaj = mesaj.replace(' ', '-');// metinde boşlukları - ile değiştirdik.
+		System.out.println(yeniMesaj);
+
+		System.out.println(mesaj.substring(2, 5));// metinde istediğimiz aralıktaki değerleri getirir
+
+		for (String kelime : mesaj.split(" ")) { // split/metin ayırma. istenilen karaktere göre ayırma yapar
+			System.out.println(kelime);
+		}
+
+		System.out.println(mesaj.toLowerCase());// metnin tamamını küçük harfe çevirir
+		System.out.println(mesaj.toUpperCase());// metnin tamamını büyük harfe çevirir
+
+		System.out.println(mesaj.trim());// metnin başlangıcı ve sonunda boşluk varsa kaldırır
+
 	}
 
 }
