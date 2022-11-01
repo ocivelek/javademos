@@ -3,7 +3,7 @@ package miniProjeAsalSayi;
 public class Main {
 
 	public static void main(String[] args) {
-		int number = 5;
+		int number = 2;
 		int control = 1;
 		if (number == 1) {
 			System.out.println("Sayı asal değildir.");
