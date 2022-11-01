@@ -3,7 +3,7 @@ package sesliHarfler;
 public class Main {
 
 	public static void main(String[] args) {
-		char harf1 = 'A';
+		char harf1 = 'E';
 		switch (harf1) {
 		case 'A':
 		case 'I':
@@ -17,7 +17,7 @@ public class Main {
 		
 		System.out.println("------------------------------------------------------------");
 		
-		char harf = 'A';
+		char harf = 'E';
 		boolean isThere = false;
 		char[] kalinSesliHarfler = new char[4];
 		kalinSesliHarfler[0] = 'A';
